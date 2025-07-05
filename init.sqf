@@ -3,6 +3,7 @@ execVM "core\evannexInit.sqf";
 // Enable friendly markers
 execVM "core\client\QS_icons.sqf";
 
+execVM "scripts\slingload_init.sqf";
 
 // Server-side Zeus assignment for all players
 if (isServer) then {
