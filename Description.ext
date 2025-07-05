@@ -25,6 +25,8 @@ respawn = "base";
 respawnButton = 1;
 respawnDelay = 0;
 
+zeusCompositionScriptLevel = 2;
+
 class Header {
 	gameType =  Coop;		    // Game type
 	minPlayers =  1;			// minimum number of players the mission supports
