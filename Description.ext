@@ -1,6 +1,6 @@
-title = "Evannex";
-author = "Bradenm1";
-onLoadName = "Evannex";
+title = "Evannex - Fork";
+author = "Bradenm1 - Fork by @GetParanoid";
+onLoadName = "Evannex - Fork";
 onLoadMission = "An AI vs AI gamemode";
 loadScreen = "textures\mission_thumbnail.paa";
 
@@ -11,18 +11,19 @@ corpseRemovalMaxTime = 20;
 minPlayerDistance = 50;
 
 wreckManagerMode = 1;
-wreckLimit = 10;
+wreckLimit = 5;
 wreckRemovalMinTime = 15;
 briefing = -1;
 
 reviveMode = 1;
+reviveDelay = 10;
 aiKills = 1;
 enableItemsDropping = 0;
 
 disabledAI = 1;
 respawn = "base";
 respawnButton = 1;
-respawnDelay = 10;
+respawnDelay = 0;
 
 class Header {
 	gameType =  Coop;		    // Game type
@@ -120,12 +121,6 @@ class Params {
         texts[] = {"Disabled","Enabled"};
         default = 1;
     };
-	class ZeusSeesAI {
-		title = "Allow Zeus to see spawned AI";
-        values[] = {0,1};
-        texts[] = {"Disabled","Enabled"};
-        default = 1;
-	}
 	class Fatigue {
         title = "Player Fatigue";
         values[] = {0,1};
